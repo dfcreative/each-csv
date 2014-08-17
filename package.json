@@ -1,0 +1,33 @@
+{
+  "name": "each-csv",
+  "version": "0.0.0",
+  "description": "Iterate over each comma-separated value ignoring 1-st level parentheses",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfcreative/each-csv"
+  },
+  "keywords": [
+    "csv",
+    "each",
+    "iterator",
+    "parentheses",
+    "parsing"
+  ],
+  "author": "dfcreative",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfcreative/each-csv/issues"
+  },
+  "homepage": "https://github.com/dfcreative/each-csv",
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "chai": "~1.9.1"
+  }
+}
