@@ -5,6 +5,8 @@ var commaMatchRe = /(,[^,]*?(?:\([^()]+\)[^,]*)?)(?=,|$)/g;
 
 /** iterate over every item in string */
 function eachCSV(str, fn){
+	if (!str) return;
+
 	//force string be primitive
 	str += '';
 

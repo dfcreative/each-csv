@@ -9,7 +9,7 @@ describe('eachCSV', function(){
 		})
 
 		assert.deepEqual(log, ['a', 'b(1,2)', 'c', 'd\nx', '"e"', ''])
-	})
+	});
 
 	it('empty', function(){
 		var log = []
@@ -17,8 +17,8 @@ describe('eachCSV', function(){
 			log.push(a)
 		})
 
-		assert.deepEqual(log, [''])
-	})
+		assert.deepEqual(log, [])
+	});
 
 	it('undefined', function(){
 		var log = []
@@ -27,5 +27,5 @@ describe('eachCSV', function(){
 		})
 
 		assert.deepEqual(log, [])
-	})
+	});
 })
