@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "Iterate over each comma-separated value ignoring 1-st level parentheses",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "directories": {
     "test": "test"
   },
@@ -20,8 +23,12 @@
     "parentheses",
     "parsing"
   ],
-  "author": "dfcreative",
-  "license": "MIT",
+  "author": {
+    "name": "Deema Yvanow",
+    "email": "dfcreative@gmail.com",
+    "url": "http://github.com/dfcreative"
+  },
+  "license": "unlicensed",
   "bugs": {
     "url": "https://github.com/dfcreative/each-csv/issues"
   },
@@ -30,5 +37,7 @@
     "mocha": "~1.21.4",
     "chai": "~1.9.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "parenthesis": ">=1.2.1"
+  }
 }
