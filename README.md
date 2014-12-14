@@ -1,4 +1,4 @@
-# each-csv [![Build Status](https://travis-ci.org/dfcreative/each-csv.svg?branch=master)](https://travis-ci.org/dfcreative/each-csv) <img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
+# each-csv [![Build Status](https://travis-ci.org/dfcreative/each-csv.svg?branch=master)](https://travis-ci.org/dfcreative/each-csv) [![Code Climate](https://codeclimate.com/github/dfcreative/each-csv/badges/gpa.svg)](https://codeclimate.com/github/dfcreative/each-csv) <a href="UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
 
 Iterate over comma-separated values in string, ignoring parentheses.
 
