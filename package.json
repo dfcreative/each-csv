@@ -1,6 +1,6 @@
 {
   "name": "each-csv",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Iterate over each comma-separated value ignoring parentheses",
   "main": "index.js",
   "files": [
